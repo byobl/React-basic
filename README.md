@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 리액트를 이용해 간단한 웹페이지를 수정하며 기능 익혀보기
-### 들어간 개념
+### 실습한 개념
 - 컴포넌트 사용 및 제작
 - props와 state의 사용
 - 이벤트 구현
