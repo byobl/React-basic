@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - create기능 구현
 - (예정) update & Delete 기능 구현
 
-<img src="https://user-images.githubusercontent.com/40741363/95822144-517e7780-0d66-11eb-9e37-450428f83743.PNG" width="60%">
+<img src="https://user-images.githubusercontent.com/40741363/95829417-2cdbcd00-0d71-11eb-87cb-7e84a1181c2e.PNG" width="100%">
 <img src="https://user-images.githubusercontent.com/40741363/95822610-36f8ce00-0d67-11eb-836a-e2ad9f8a9ff4.PNG" width="60%">
 
 ## Available Scripts
