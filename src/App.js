@@ -4,21 +4,22 @@ import Subject from "./components/Subject"
 import ReadContent from "./components/ReadContent"
 import Control from "./components/Control"
 import CreateContent from "./components/CreateContent"
-//import './App.css';
+import './App.css';
 
 
 class App extends Component {
   constructor(props){
     super(props);
+    this.max_content_id = 3; // 맨 마지막 배열의 id값
     this.state = {
       mode:'read',
       selected_content_id:2,
-      subject:{title:'WEB', sub:'word wide web!'},
-      welcome:{title:'Welcome', desc:'Hello, React!!'},
+      subject:{title:'Byobl', sub:'BoB 9th team \'Byobl\''},
+      welcome:{title:'Welcome', desc:'Hello, Byoble and React!!'},
       contents:[
-        {id:1, title:'HTML', desc:'HTML is for information'},
-        {id:2, title:'CSS', desc:'CSS is for design'},
-        {id:3, title:'JS', desc:'JS is for interactive'}
+        {id:1, title:'Block-chain', desc:'Block-chain을 통한 교육인증 서비스 제작'},
+        {id:2, title:'자기주권', desc:'자기주권 인증 플랫폼'},
+        {id:3, title:'뵤블팀 짱짱', desc:'다들 화이팅'}
       ]
     }
   }
@@ -42,6 +43,9 @@ class App extends Component {
      _article = <ReadContent title={_title} desc={_desc}></ReadContent>
     }else if(this.state.mode === 'create'){
       _article = <CreateContent   onSubmit={function(_title, _desc){
+        //add comtent to this.state.contents
+        this.max_content_id = this.max_content_id++;
+       // {id:this.max_content_id, title:_title, desc:_desc}
         console.log(_title,_desc);
       }.bind(this)}></CreateContent>
     }

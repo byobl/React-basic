@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  background: linear-gradient(45deg, rgb(177, 116, 235), aquamarine);
+  padding-left: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .App-logo {
@@ -25,7 +28,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #18135f;
 }
 
 @keyframes App-logo-spin {
