@@ -45,11 +45,12 @@ class App extends Component {
       _article = <CreateContent   onSubmit={function(_title, _desc){
         //add comtent to this.state.contents
         this.max_content_id = this.max_content_id+1;
-        // 해당 방식은 기존 데이터의 변경을 가져올 숭 있어서 비추
+        // 해당 방식은 기존 데이터의 변경을 가져올 수 있어서 비추
         // this.state.contents.push( 
         //   {id:this.max_content_id, title:_title, desc:_desc}
         // );
-        // 그래서 이런식으로 conccat을 쓴 거야
+        // 그래서 이런식으로 원본을 바꾸지 않는 conccat을 쓴 거야
+        // concat은 복사본을 만들어서 따로 저장하는 형식임.
         var _contents = this.state.contents.concat(
           {id:this.max_content_id, title:_title, desc:_desc}
         )
