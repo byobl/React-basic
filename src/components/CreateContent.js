@@ -10,6 +10,7 @@ class CreateContent extends Component{
              e.target.title.value,
              e.target.desc.value
            );
+           alert("제출완료!!");
          }.bind(this)}>
            <p><input type="text" name="title" placeholder="title"></input></p>
            <p><textarea name="desc" placeholder="description"></textarea></p>

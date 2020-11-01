@@ -44,8 +44,18 @@ class App extends Component {
     }else if(this.state.mode === 'create'){
       _article = <CreateContent   onSubmit={function(_title, _desc){
         //add comtent to this.state.contents
-        this.max_content_id = this.max_content_id++;
-       // {id:this.max_content_id, title:_title, desc:_desc}
+        this.max_content_id = this.max_content_id+1;
+        // 해당 방식은 기존 데이터의 변경을 가져올 숭 있어서 비추
+        // this.state.contents.push( 
+        //   {id:this.max_content_id, title:_title, desc:_desc}
+        // );
+        // 그래서 이런식으로 conccat을 쓴 거야
+        var _contents = this.state.contents.concat(
+          {id:this.max_content_id, title:_title, desc:_desc}
+        )
+       this.setState({
+         contents:_contents
+       });
         console.log(_title,_desc);
       }.bind(this)}></CreateContent>
     }
