@@ -19,4 +19,4 @@ class Control extends Component{
       );
     }
 }
-    export default Control;
+    export default Control; 
