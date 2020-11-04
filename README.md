@@ -1,15 +1,27 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-리액트를 이용해 간단한 웹페이지를 수정하며 기능 익혀보기
+리액트를 이용해 간단한 웹페이지를 수정하며 기능 익혀보기(완료)
 ### 실습한 개념
 - 컴포넌트 사용 및 제작
 - props와 state의 사용
 - 이벤트 구현
 - create기능 구현
-- (예정) update & Delete 기능 구현
+- update & Delete 기능 구현
 
-<img src="https://user-images.githubusercontent.com/40741363/95829417-2cdbcd00-0d71-11eb-87cb-7e84a1181c2e.PNG" width="100%">
-<img src="https://user-images.githubusercontent.com/40741363/95822610-36f8ce00-0d67-11eb-836a-e2ad9f8a9ff4.PNG" width="60%">
+## 모습
+<p align="center"><img src="https://user-images.githubusercontent.com/40741363/95822610-36f8ce00-0d67-11eb-836a-e2ad9f8a9ff4.PNG" width="40%"></p><br><br>
+
+## create
+<p align="center"><img src="https://user-images.githubusercontent.com/40741363/95829417-2cdbcd00-0d71-11eb-87cb-7e84a1181c2e.PNG" width="100%"></p><br><br>
+
+
+## update
+<p align="center"><img src="https://user-images.githubusercontent.com/40741363/98170335-27694100-1f31-11eb-8a0f-9050f41f356e.PNG" width="100%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/40741363/98170339-289a6e00-1f31-11eb-8189-c28e360c9f30.PNG" width="100%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/40741363/98170341-289a6e00-1f31-11eb-808c-8c91ef80a554.PNG" width="100%"></p><br><br>
+
+## delete
+<p align="center"><img src="https://user-images.githubusercontent.com/40741363/98170343-29cb9b00-1f31-11eb-85a8-636253e8c275.PNG" width="80%"></p><br><br><br><br>
 
 ## Available Scripts
 
